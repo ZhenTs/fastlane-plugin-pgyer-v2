@@ -160,7 +160,7 @@ module Fastlane
             FastlaneCore::ConfigItem.new(key: :apk,
                                          env_name: "PGYER_APK",
                                          description: "Path to your APK file",
-                                         default_value: Actions.lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH],
+                                         default_value: Actions.lane_context[SharedValues::GRADLE_ALL_APK_OUTPUT_PATHS].select{|item|item.include?"armeabi-v7a-release.apk"}.at(0),
                                          optional: true,
                                          verify_block: proc do |value|
                                            UI.user_error!("Couldn't find apk file at path '#{value}'") unless File.exist?(value)
