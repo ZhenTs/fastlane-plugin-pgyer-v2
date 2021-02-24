@@ -1,4 +1,4 @@
-require 'fastlane/plugin/pgyer_v2/version'
+require 'fastlane/plugin/pgyer/v2/version'
 
 module Fastlane
   module PgyerV2
