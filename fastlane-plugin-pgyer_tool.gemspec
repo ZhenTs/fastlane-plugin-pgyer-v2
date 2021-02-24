@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.author        = 'ZhenTs'
   spec.email         = 'zhen.ts@outlook.com'
 
-  spec.summary       = 'pyger_tool'
+  spec.summary       = 'pgyer_tool'
   # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-pgyer_tool"
   spec.license       = "MIT"
 
