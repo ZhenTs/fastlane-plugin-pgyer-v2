@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fastlane/plugin/pgyer_v2/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-pgyer_v2'
+  spec.name          = 'fastlane-plugin-pgyer-v2'
   spec.version       = Fastlane::PgyerV2::VERSION
   spec.author        = 'ZhenTs'
   spec.email         = '398493723@qq.com'
 
   spec.summary       = 'pgyer fastlane plugin with api v2'
-  spec.homepage      = "https://github.com/ZhenTs/fastlane-plugin-pgyer_v2"
+  spec.homepage      = "https://github.com/ZhenTs/fastlane-plugin-pgyer-v2"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
