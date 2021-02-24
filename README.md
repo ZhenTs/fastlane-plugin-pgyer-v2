@@ -1,31 +1,18 @@
-# pgyer_v2 plugin
+# pgyer_tool plugin
 
-[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-pgyer-v2)
+[![fastlane Plugin Badge](https://rawcdn.githack.com/fastlane/fastlane/master/fastlane/assets/plugin-badge.svg)](https://rubygems.org/gems/fastlane-plugin-pgyer_tool)
 
 ## Getting Started
 
-This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-pgyer-v2`, add it to your project by running:
+This project is a [_fastlane_](https://github.com/fastlane/fastlane) plugin. To get started with `fastlane-plugin-pgyer_tool`, add it to your project by running:
 
-#### Upload apk / ipa
-```ruby
-lane :beta do
-  gym
-  pgyer_v2_upload(api_key: "xxxxxxxxx", user_key: "xxxxxxxxx")
-end
-```
-#### Upload and update app shortcut url
-```ruby
-lane :beta do
-  gym
-  pgyer_v2_upload(api_key: "xxxxxxxxx", user_key: "xxxxxxxxx")
-  pgyer_v2_update(api_key: "xxxxxxxxx", user_key: "xxxxxxxxx",buildKey:"xxxxxxxxx",buildShortcutUrl:"xxxxx")
-end
-
+```bash
+fastlane add_plugin pgyer_tool
 ```
 
-## About pgyer_v2
+## About pgyer_tool
 
-pgyer fastlane plugin with api v2
+pyger_tool
 
 **Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
 

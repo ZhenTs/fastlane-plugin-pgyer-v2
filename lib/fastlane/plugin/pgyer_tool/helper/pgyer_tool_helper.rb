@@ -4,12 +4,12 @@ module Fastlane
   UI = FastlaneCore::UI unless Fastlane.const_defined?("UI")
 
   module Helper
-    class PgyerV2Helper
+    class PgyerToolHelper
       # class methods that you define here become available in your action
-      # as `Helper::PgyerV2Helper.your_method`
+      # as `Helper::PgyerToolHelper.your_method`
       #
       def self.show_message
-        UI.message("Hello from the pgyer_v2 plugin helper!")
+        UI.message("Hello from the pgyer_tool plugin helper!")
       end
     end
   end

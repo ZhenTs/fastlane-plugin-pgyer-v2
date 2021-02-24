@@ -2,16 +2,16 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'fastlane/plugin/pgyer/v2/version'
+require 'fastlane/plugin/pgyer_tool/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fastlane-plugin-pgyer-v2'
-  spec.version       = Fastlane::PgyerV2::VERSION
+  spec.name          = 'fastlane-plugin-pgyer_tool'
+  spec.version       = Fastlane::PgyerTool::VERSION
   spec.author        = 'ZhenTs'
-  spec.email         = '398493723@qq.com'
+  spec.email         = 'zhen.ts@outlook.com'
 
-  spec.summary       = 'pgyer fastlane plugin with api v2'
-  spec.homepage      = "https://github.com/ZhenTs/fastlane-plugin-pgyer-v2"
+  spec.summary       = 'pyger_tool'
+  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-pgyer_tool"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
@@ -31,5 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('rubocop', '0.49.1')
   spec.add_development_dependency('rubocop-require_tools')
   spec.add_development_dependency('simplecov')
-  spec.add_development_dependency('fastlane', '>= 2.167.0')
+  spec.add_development_dependency('fastlane', '>= 2.175.0')
 end
